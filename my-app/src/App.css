@@ -1,0 +1,31 @@
+.App {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #aef, #def);
+}
+
+.fish {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  pointer-events: none;
+}
+
+.bubble {
+  position: absolute;
+  width: 10px;
+  height: auto;
+  pointer-events: none;
+}
+
+
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding-top: 20vh;
+  color: #033;
+  font-family: sans-serif;
+}
